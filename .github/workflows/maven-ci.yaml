@@ -7,7 +7,7 @@ on:
 jobs:
   test:
     name: runs test on maven
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: get source code
         uses: actions/checkout@v7
