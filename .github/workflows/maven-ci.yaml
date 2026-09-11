@@ -22,7 +22,7 @@ jobs:
   build:
     needs: test
     name: building maven
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: get source code
         uses: actions/checkout@v7
