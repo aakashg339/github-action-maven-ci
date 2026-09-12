@@ -40,7 +40,7 @@ jobs:
         with:
           distribution: temurin
           java-version: '21'
-      - name: building jar file
+      - name: building jar artifact file
         run: mvn clean package
       - name: upload artifacts
         uses: actions/upload-artifact@v7
